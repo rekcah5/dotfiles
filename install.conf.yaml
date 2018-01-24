@@ -2,15 +2,9 @@
     link:
       relink: true
 
-- clean: ['~']
-
-- link:
-    ~/.dotfiles: ''
-    ~/.tmux.conf: tmux.conf
-    ~/.zshrc: zshrc
-
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - ['git clone --recursive https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm', Installing TMP]
 - clean: ['~']
 
 - link:
