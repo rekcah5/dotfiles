@@ -1,5 +1,10 @@
 source $HOME/antigen.zsh
-    
+source /etc/commonprofile   
+#source ~/.bin/tmuxinator.zsh
+
+export EDITOR="vim"
+export PATH='/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin':"$PATH"
+
 # Load the oh-my-zsh's library
 antigen use oh-my-zsh
 
@@ -16,13 +21,15 @@ antigen bundle <<EOBUNDLES
 
     # Extra zsh completions
     zsh-users/zsh-completions
+
+    #trapd00r/zsh-syntax-highlighting-filetypes
     
     autojump
     safe-paste
 EOBUNDLES
 
 # Load the theme
-antigen theme minimal
+antigen theme mh
 
 
 
