@@ -1,5 +1,4 @@
 source $HOME/antigen.zsh
-source /etc/commonprofile   
 
 if [[ -f /etc/commonprofile ]]; then
     source /etc/commonprofile
