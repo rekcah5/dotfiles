@@ -1,7 +1,7 @@
 source $HOME/antigen.zsh
 source /etc/commonprofile   
 #source ~/.bin/tmuxinator.zsh
-
+export TERM="xterm-256color"
 export EDITOR="vim"
 export PATH='/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin':"$PATH"
 
@@ -14,7 +14,8 @@ antigen bundle <<EOBUNDLES
     git
 
     # Syntax highlighting bundle.
-    zsh-users/zsh-syntax-highlighting
+    #zsh-users/zsh-syntax-highlighting
+    zdharma/fast-syntax-highlighting
 
     # Fish-like auto suggestions
     zsh-users/zsh-autosuggestions
@@ -22,8 +23,10 @@ antigen bundle <<EOBUNDLES
     # Extra zsh completions
     zsh-users/zsh-completions
 
-    #trapd00r/zsh-syntax-highlighting-filetypes
-    
+    zsh-users/zsh-history-substring-search 
+
+    zdharma/history-search-multi-word
+
     autojump
     safe-paste
 EOBUNDLES
