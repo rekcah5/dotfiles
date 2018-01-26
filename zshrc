@@ -1,6 +1,10 @@
 source $HOME/antigen.zsh
 source /etc/commonprofile   
-#source ~/.bin/tmuxinator.zsh
+
+if [[ -f /etc/commonprofile ]]; then
+    source /etc/commonprofile
+fi
+
 export TERM="xterm-256color"
 export EDITOR="vim"
 export PATH='/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin':"$PATH"
