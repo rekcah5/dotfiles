@@ -37,7 +37,7 @@ antigen bundle <<EOBUNDLES
 EOBUNDLES
 
 # Load the theme
-antigen theme mh
+antigen theme nick 
 
 
 
