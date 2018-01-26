@@ -12,35 +12,20 @@ export PATH='/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin':"$P
 antigen use oh-my-zsh
 
 antigen bundle git
-antigen bundle <<EOBUNDLES
-    # Bundles from the default repo (robbyrussell's oh-my-zsh)
-    git
-
-    # Syntax highlighting bundle.
-    #zsh-users/zsh-syntax-highlighting
-    zdharma/fast-syntax-highlighting
-
-    # Fish-like auto suggestions
-    zsh-users/zsh-autosuggestions
-
-    # Extra zsh completions
-    zsh-users/zsh-completions
-
-    zsh-users/zsh-history-substring-search 
-
-    zdharma/history-search-multi-word
-
-    joel-porquet/zsh-dircolors-solarized.git
-
-    autojump
-    safe-paste
-EOBUNDLES
+# Syntax highlighting bundle.
+antigen bundle zdharma/fast-syntax-highlighting
+# Fish-like auto suggestions
+antigen bundle zsh-users/zsh-autosuggestions
+# Extra zsh completions
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-history-substring-search 
+antigen bundle zdharma/history-search-multi-word
+antigen bundle joel-porquet/zsh-dircolors-solarized.git
+antigen bundle autojump
+antigen bundle safe-paste
 
 # Load the theme
 antigen theme nick 
-
-
-
 
 # Tell antigen that you're done
 antigen apply
