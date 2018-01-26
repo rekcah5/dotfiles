@@ -38,7 +38,7 @@ antigen theme mh
 antigen apply
 
 if command -v tmux>/dev/null; then
-  [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && exec tmux
+#  [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && exec tmux
 fi
 
 #Fix nice WSL errors
