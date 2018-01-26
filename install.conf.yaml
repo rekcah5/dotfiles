@@ -12,5 +12,6 @@
     ~/.gitconfig: gitconfig
     ~/.tmux.conf: tmux.conf
     ~/.zshrc: zshrc
+    ~/.dir_colors: dir_colors
 
 

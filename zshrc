@@ -27,6 +27,8 @@ antigen bundle <<EOBUNDLES
 
     zdharma/history-search-multi-word
 
+    joel-porquet/zsh-dircolors-solarized.git
+
     autojump
     safe-paste
 EOBUNDLES
@@ -61,3 +63,8 @@ zle -N zle-line-init
 zle -N zle-keymap-select
 bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
+
+# Dircolors
+if [[ -f /usr/bin/dircolors && -f $HOME/.dir_colors ]]; then
+    eval $(dircolors -b $HOME/.dir_colors)
+fi
