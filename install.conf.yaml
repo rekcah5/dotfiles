@@ -14,4 +14,8 @@
     ~/.zshrc: zshrc
     ~/.dir_colors: dir_colors
 
+- link:
+    ~/.oh-my-zsh/custom/nick.zsh-theme:
+        create: true
+	path: nick.zsh-theme
 
