@@ -17,5 +17,5 @@
 - link:
     ~/.oh-my-zsh/custom/nick.zsh-theme:
         create: true
-	path: nick.zsh-theme
+        path: nick.zsh-theme
 
