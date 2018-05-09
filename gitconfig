@@ -1,3 +1,5 @@
 [user]
 	email = rekcah5@gmail.com
 	name = Nick Maultsby
+[oh-my-zsh]
+	hide-status = 1
