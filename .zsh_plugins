@@ -1,0 +1,10 @@
+zdharma/fast-syntax-highlighting
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-completions
+zsh-users/zsh-history-substring-search 
+zdharma/history-search-multi-word
+
+robbyrussell/oh-my-zsh path:lib
+robbyrussell/oh-my-zsh folder:plugins/common-aliases
+robbyrussell/oh-my-zsh folder:plugins/git
+rekcah5/dotfiles path:nick.zsh-theme
